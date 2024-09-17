@@ -46,6 +46,5 @@ while abs(formula(ave_depth)) > danger:
         max_depth = ave_depth
     ave_depth = min_depth +(max_depth - min_depth)/2
     formula(ave_depth)
-    print(ave_depth)
 print('Приблизительная глубина безопасной кладки:',ave_depth)
 
